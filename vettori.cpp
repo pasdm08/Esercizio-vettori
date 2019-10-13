@@ -6,7 +6,7 @@ using namespace std;
 int main() {
 	
 	float v[10];
-	float m=0;
+	float a,m;
 	int i;
 	
 	for(i=0; i<10; i++){
@@ -16,8 +16,9 @@ int main() {
     cout << "voti: " << endl;
 	for(i=0; i<10; i++){
 	cout << v[i] << endl;
-	m = ( m + v[i] )/10;
+	a =  m + v[i] ;
 	}
+	m = a/10
     cout << "la media dei voti e': " << m << endl;
 	 
 	
